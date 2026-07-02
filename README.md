@@ -1,4 +1,4 @@
-# Solana Concurrent Merkle Tree Snapshot
+# richies Solana Concurrent Merkle Tree Snapshot
 
 > **Cluster:** Mainnet-Beta  
 > **Snapshot Date:** 2026-07-01T08:37:00-04:00  
