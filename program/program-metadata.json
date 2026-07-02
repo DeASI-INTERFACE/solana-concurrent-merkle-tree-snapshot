@@ -1,0 +1,21 @@
+{
+  "$schema": "https://github.com/De-ASI-INTERFACE/solana-concurrent-merkle-tree-snapshot/blob/main/program/program-metadata.json",
+  "asset_type": "solana_program_account",
+  "cluster": "mainnet-beta",
+  "source": "explorer.solana.com",
+  "captured_at": "2026-07-01T08:32:00-04:00",
+  "captured_from_file": "IMG_4026.jpeg",
+  "captured_by": "De-ASI-INTERFACE",
+  "address": "CoREE...NhX7d",
+  "balance_sol": 0.001141441,
+  "executable": true,
+  "executable_data": "9ZC25...TdGfr",
+  "upgradeable": true,
+  "verified_build": true,
+  "verified_build_status": "Program Source Verified",
+  "security_txt_included": true,
+  "last_deployed_slot": 427105234,
+  "upgrade_authority": "bfQVv...GFubb",
+  "upgrade_authority_type": "program_multisig",
+  "notes": "Address values are truncated as displayed in Solana Explorer UI. The program label visible in explorer is MplCore. Verified build and security.txt status are as confirmed in the Solana Explorer Security and Verified Build tabs."
+}

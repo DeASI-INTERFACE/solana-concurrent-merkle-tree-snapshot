@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "verified_build_record",
+  "cluster": "mainnet-beta",
+  "program_address": "CoREE...NhX7d",
+  "verified_build_status": "Program Source Verified",
+  "verification_source": "Solana Explorer — Verified Build tab",
+  "captured_at": "2026-07-01T08:32:00-04:00",
+  "captured_by": "De-ASI-INTERFACE",
+  "notes": "Solana verified builds link a deployed program binary to its source code so any party can independently confirm the program was compiled from the stated source. This record confirms the status as observed. Full build reproducibility details (IPFS hash, build environment, exact commit SHA) must be retrieved from the Solana program verification registry or via 'solana-verify' CLI.",
+  "references": [
+    "https://solana.com/docs/programs/verified-builds",
+    "https://github.com/Ellipsis-Labs/solana-verifiable-build"
+  ]
+}

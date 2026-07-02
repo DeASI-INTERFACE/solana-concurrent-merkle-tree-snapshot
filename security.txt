@@ -1,0 +1,10 @@
+-----BEGIN SECURITY.TXT V1.0.0-----
+Contact: https://github.com/De-ASI-INTERFACE
+Contact: https://github.com/DeASI-INTERFACE
+Expires: 2027-07-01T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://github.com/De-ASI-INTERFACE/solana-concurrent-merkle-tree-snapshot/blob/main/security.txt
+Policy: https://github.com/De-ASI-INTERFACE/solana-concurrent-merkle-tree-snapshot/blob/main/SECURITY.md
+Acknowledgments: https://github.com/De-ASI-INTERFACE/solana-concurrent-merkle-tree-snapshot
+Scope: This security.txt covers the repository and associated scripts. For on-chain program security, refer to the program's own security.txt (confirmed Included on Solana Explorer for program CoREE...NhX7d).
+-----END SECURITY.TXT V1.0.0-----

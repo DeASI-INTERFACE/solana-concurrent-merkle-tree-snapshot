@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "program_security_posture",
+  "cluster": "mainnet-beta",
+  "program_address": "CoREE...NhX7d",
+  "security_txt_included": true,
+  "verified_build": true,
+  "upgradeable": true,
+  "upgrade_authority_type": "program_multisig",
+  "upgrade_authority_address": "bfQVv...GFubb",
+  "risk_notes": [
+    "Program is upgradeable — governance risk is partially mitigated by program multisig upgrade authority.",
+    "Multisig governance means no single key can unilaterally upgrade the program.",
+    "Verified build status provides source code transparency and reduces binary substitution risk.",
+    "security.txt is included on-chain, providing a public security contact vector for researchers."
+  ],
+  "captured_at": "2026-07-01T08:32:00-04:00",
+  "captured_by": "De-ASI-INTERFACE"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "cmt_state_snapshot",
+  "cluster": "mainnet-beta",
+  "captured_at": "2026-07-01T08:27:00-04:00",
+  "state": {
+    "authority": "62Jc4...hyRmr",
+    "creation_slot": 310204100,
+    "tree_config": {
+      "max_depth": 24,
+      "max_buffer_size": 64,
+      "canopy_depth": 7
+    },
+    "current_state": {
+      "sequence_number": 12920932,
+      "root": "HqBZE...9RkyB",
+      "leaves": {
+        "current": 12825025,
+        "remaining": 3952191,
+        "max_possible": 16777216,
+        "utilization_pct": 76.44
+      }
+    }
+  },
+  "source_file": "tree/cmt-metadata.json"
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://github.com/De-ASI-INTERFACE/solana-concurrent-merkle-tree-snapshot/blob/main/tree/cmt-metadata.json",
+  "asset_type": "solana_concurrent_merkle_tree",
+  "cluster": "mainnet-beta",
+  "source": "explorer.solana.com",
+  "captured_at": "2026-07-01T08:27:00-04:00",
+  "captured_from_file": "IMG_4027.jpeg",
+  "captured_by": "De-ASI-INTERFACE",
+  "authority": "62Jc4...hyRmr",
+  "creation_slot": 310204100,
+  "max_depth": 24,
+  "max_buffer_size": 64,
+  "canopy_depth": 7,
+  "current_sequence_number": 12920932,
+  "current_root": "HqBZE...9RkyB",
+  "current_number_of_leaves": 12825025,
+  "remaining_leaves": 3952191,
+  "max_possible_leaves": 16777216,
+  "notes": "Address values are truncated as displayed in Solana Explorer UI. Full addresses must be retrieved via on-chain RPC query against the authority key."
+}

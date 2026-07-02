@@ -1,0 +1,43 @@
+name: Validate Snapshot
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Validate All Snapshot Fields
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run snapshot validator
+        run: python scripts/validate_snapshot.py
+
+      - name: Confirm required files exist
+        run: |
+          echo "Checking required compliance files..."
+          for file in README.md LICENSE SECURITY.md security.txt CHANGELOG.md CONTRIBUTING.md CODE_OF_CONDUCT.md; do
+            if [ ! -f "$file" ]; then
+              echo "MISSING: $file"
+              exit 1
+            fi
+            echo "OK: $file"
+          done
+          for file in tree/cmt-metadata.json tree/cmt-state.json program/program-metadata.json program/verified-build.json program/security-metadata.json; do
+            if [ ! -f "$file" ]; then
+              echo "MISSING: $file"
+              exit 1
+            fi
+            echo "OK: $file"
+          done
+          echo "All required files present."
